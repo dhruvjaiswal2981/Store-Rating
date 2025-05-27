@@ -1,3 +1,4 @@
+const bcrypt = require('bcryptjs');
 const { User, Store, Rating } = require('../models');
 
 exports.dashboard = async (req, res) => {
